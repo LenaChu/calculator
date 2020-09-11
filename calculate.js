@@ -20,7 +20,7 @@ numbers[i].addEventListener("click", function(){
     //Stop number input when the length is longer than the display box can contain
     //the decimal point can only appear in the second 
     if(calNum[0] === "0" && calNum[1] !== "."){   
-        calNum = "";}
+        calNum = "0";}
         //The 0 dispear after clicking on the decimal button??
     else{
        display.innerText = calNum;
